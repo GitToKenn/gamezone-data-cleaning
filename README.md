@@ -6,14 +6,27 @@ This project focuses on cleaning a simulated e-commerce orders dataset ("Gamezon
 
 ## 📁 Project Structure
 
+- [README.md](README.md) – Project overview and documentation
+- [data/](data/) – Dataset files
+  - [gamezone_orders_raw.xlsx](data/gamezone_orders_raw.xlsx)
+  - [gamezone_orders_cleaned_2025-06-19.xlsx](data/gamezone_orders_cleaned_2025-06-19.xlsx)
+- [log/](log/) – Data quality logs
+  - [Issue_log.xlsx](log/Issue_log.xlsx)
+- [notebook/](notebook/) – Analysis notebooks (currently empty)
+
+---
+
+### 📁 Folder Tree
+```
 root/
-├── README.md ← Project overview and documentation
+├── README.md
 ├── data/
-│ ├── gamezone_orders_raw.xlsx ← Original dataset
-│ └── gamezone_orders_cleaned_2025-06-19.xlsx ← Cleaned dataset
+│ ├── gamezone_orders_raw.xlsx
+│ └── gamezone_orders_cleaned_2025-06-19.xlsx
 ├── log/
-│ └── Issue_log.xlsx ← Manual log of data issues and resolutions
-└── notebook/ ← Folder prepared for future analysis (currently empty)
+│ └── Issue_log.xlsx
+└── notebook/
+```
 
 ---
 
@@ -22,10 +35,15 @@ root/
 - **Source**: Public dataset from Christine Jiang’s YouTube course
 - **Rows**: 5,797
 - **Key Columns**:
+
   - `PURCHASE_TS`, `SHIP_TS`, `PURCHASE_TS_CLEANED`
+
   - `PRODUCT_NAME_CLEANED`, `PRODUCT_ID`, `USD_PRICE`
+
   - `PURCHASE_PLATFORM`, `MARKETING_CHANNEL_CLEANED`
+
   - `ACCOUNT_CREATION_METHOD_CLEANED`, `COUNTRY_CODE`, `REGION_CLEANED`
+
   - `ORDER_ID`, `USER_ID`
 
 ---
