@@ -6,15 +6,14 @@ This project focuses on cleaning a simulated e-commerce orders dataset ("Gamezon
 
 ## 📁 Project Structure
 
-📦 root/
-├── README.md                         ← Project overview and documentation
+root/
+├── README.md ← Project overview and documentation
 ├── data/
-│   ├── gamezone_orders_raw.xlsx      ← Original dataset
-│   ├── gamezone_orders_cleaned_2025-06-19.xlsx  ← Cleaned dataset
+│ ├── gamezone_orders_raw.xlsx ← Original dataset
+│ └── gamezone_orders_cleaned_2025-06-19.xlsx ← Cleaned dataset
 ├── log/
-│   └── Issue_log.xlsx                ← Manual log of data issues and resolutions
-├── notebook/                         ← Folder prepared for future analysis (currently empty)
-
+│ └── Issue_log.xlsx ← Manual log of data issues and resolutions
+└── notebook/ ← Folder prepared for future analysis (currently empty)
 
 ---
 
