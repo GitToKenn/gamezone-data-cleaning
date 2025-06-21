@@ -6,13 +6,15 @@ This project focuses on cleaning a simulated e-commerce orders dataset ("Gamezon
 
 ## 📁 Project Structure
 
-- [README.md](README.md) – Project overview and documentation
-- [data/](data/) – Dataset files
-  - [gamezone_orders_raw.xlsx](data/gamezone_orders_raw.xlsx)
-  - [gamezone_orders_cleaned_2025-06-19.xlsx](data/gamezone_orders_cleaned_2025-06-19.xlsx)
-- [log/](log/) – Data quality logs
-  - [Issue_log.xlsx](log/Issue_log.xlsx)
-- [notebook/](notebook/) – Analysis notebooks (currently empty)
+- `README.md` – Project overview and documentation  
+- `data/` – Dataset files  
+  - *(Raw dataset excluded from repo — see License section)*  
+  - `gamezone_orders_cleaned_2025-06-19.xlsx` ← Cleaned dataset ready for analysis  
+- `log/` – Data quality and issue tracking  
+  - `Issue_log.xlsx` ← Manual log of flagged records and cleaning decisions  
+- `notebook/` – Reserved for analysis notebooks or exploratory steps  
+- `.gitignore` – Tracks excluded files and temporary system artifacts  
+
 
 ---
 
@@ -87,7 +89,7 @@ Dataset used in this project was made available for public learning by **Christi
 - 🎥 [Watch the video](https://www.youtube.com/watch?v=y9wFFD2bXQM)  
 - 📺 Channel: [@christinejiangdata](https://www.youtube.com/@christinejiangdata)
 
-Dataset was distributed through her [Analytics Accelerator Kit](https://the-analytics-accelerator.kit) and is intended for **educational & portfolio use only**.
+Dataset was distributed through her [Analytics Accelerator Kit](https://the-analytics-accelerator.kit.com/sample-dataset) and is intended for **educational & portfolio use only**.
 
 ---
 
