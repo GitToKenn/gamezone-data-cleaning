@@ -1,0 +1,5 @@
+# raw data
+gamezone_orders_dataset_raw.xlsx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
